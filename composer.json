@@ -1,0 +1,25 @@
+{
+  "name": "masoudjahromi/simple-booking",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src",
+      "App\\tests\\": "tests"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^7.3",
+    "ext-json": "*",
+    "psr/log": "^1.1",
+    "money/money": "^2.0",
+    "phpunit/phpunit": "^9.5",
+    "tightenco/collect": "^8.34"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^5.2"
+  },
+  "config": {
+    "platform": {
+      "php": "7.4"
+    }
+  }
+}
